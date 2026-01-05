@@ -1,0 +1,85 @@
+.nav-item a{
+    color: black;
+    text-decoration: none;
+
+}
+
+/* Footer */
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.company a{
+    text-decoration: none;
+    color: rgb(58, 54, 54);
+}
+
+.company a:hover{
+    color:blue;
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+  
+}
+.back{
+   
+    max-width: 100%;
+    padding: 0;
+    background-color: #fbf8f8;
+
+}
+.Social-Media{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+   color: rgb(161, 159, 159);
+   gap: 1rem;
+    
+}
+
+.Social-Media i:hover{
+ color: blue;
+  cursor: pointer;
+}
+
+ .Social-Media i{
+    max-height: 2rem ;
+    max-width: 2rem;
+}
+
+.para{
+   padding: 1rem;
+    margin-left: 14rem;
+    width: 60vw;
+    color: rgb(163, 161, 161);
+    margin-bottom: 0;
+}
+.para a{
+    text-decoration: none;
+}
+
+.link{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 2rem;
+    margin-right:4rem;
+    margin-bottom: 2rem;
+}
+.link a{
+    text-decoration: none;
+    color: grey;
+}
+.link a:hover{
+   color: blue;
+   text-decoration: dashed;
+
+}
